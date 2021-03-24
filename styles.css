@@ -119,7 +119,15 @@ input:focus{
       padding: 25px 0 25px 0;
   }
 
-  .content{
-    margin-top: 0;
+   .content{
+    margin-top: 80px;
+    width:85%;
+    padding:0;
+  }
+
+  .textpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
