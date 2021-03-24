@@ -131,4 +131,7 @@ input:focus{
     justify-content: center;
     align-items: center;
   }
+  
+  .error{
+    right: 30%;
 }
