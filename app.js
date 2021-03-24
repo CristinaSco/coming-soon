@@ -12,6 +12,7 @@ function validate() {
   if (validateEmail(email)) {
     $result.text("Perfect! Thank you!");
     $result.css("color", "green");
+    $error.hide();
   } else {
     $result.text("Please provide a valid email");
     $result.css("color", "hsl(0, 36%, 70%)");
