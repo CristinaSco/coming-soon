@@ -16,7 +16,7 @@ function validate() {
   } else {
     $result.text("Please provide a valid email");
     $result.css("color", "hsl(0, 36%, 70%)");
-    $error.toggle();
+    $error.show();
   }
   return false;
 }
