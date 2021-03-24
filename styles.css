@@ -131,6 +131,9 @@ input:focus{
     justify-content: center;
     align-items: center;
   }
+    .email{
+    width:70%;
+  }
   
   .error{
     right: 30%;
