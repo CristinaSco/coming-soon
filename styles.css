@@ -1,0 +1,125 @@
+body{
+  background: url("images/bg-pattern-desktop.svg")no-repeat;
+  padding:0
+}
+
+
+.navbar{
+  background-color:hsl(0, 0, 0);
+  position:absolute;
+  top: 7%;
+  left: 10%;
+}
+
+.content{
+  margin-top: 100px;
+  width:85%;
+  padding:100px 0 100px 100px;
+}
+
+.first{
+  font-family: 'Josefin Sans', sans-serif;
+  color:hsl(0, 36%, 70%);
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+.second{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color:hsl(0, 36%, 70%);
+}
+
+.email{
+  margin-top: 40px;
+  border-radius: 50px;
+  width: 80%;
+  height: 45px;
+  border: 1px solid hsl(0, 36%, 70%);
+}
+
+button{
+  border-radius: 50px;
+  width: 18%;
+  height: 50px;
+  border: 1px solid hsl(0, 36%, 70%);
+  background-image: linear-gradient(to right, #ffdde1 0%, #ee9ca7  51%, #ee9ca7  100%);
+  margin-left: -15%;
+}
+
+.button:hover{
+  background-image: none;
+  background-color: #ffdde1;
+}
+
+::placeholder{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  color:hsl(0, 80%, 86%);
+  padding-left: 50px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.inputBox{
+  position: relative;
+}
+
+#result{
+  display: block;
+}
+
+.error{
+  position:absolute;
+  right:40%;
+  bottom: 30%;
+  display: none;
+}
+
+.photo{
+  background-image: url("images/hero-desktop.jpg");
+  background-size: cover;
+}
+
+.mobile{
+  display: none;
+}
+
+@media screen and (max-width:767px){
+  .first, .second, p{
+    text-align: center;
+  }
+
+  .mobile{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .inputBox{
+    text-align: center;
+  }
+
+  .navbar{
+    position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      background-color: white;
+      padding: 25px 0 25px 0;
+  }
+
+  .content{
+    margin-top: 0;
+  }
+}
